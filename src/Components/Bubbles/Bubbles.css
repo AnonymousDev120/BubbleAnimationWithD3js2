@@ -1,0 +1,18 @@
+g {
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+g:hover {
+  border-radius: 50%;
+  /* outline: 5px solid black; */
+}
+circle {
+  border-radius: 50%;
+  outline: 0px solid purple;
+  transition: all 0.3s;
+}
+g:hover circle {
+  outline: 10px solid black;
+}
